@@ -6,12 +6,12 @@ import { stripe } from "../../services/stripe";
 
 type User = {
     ref: {
-        id: string;
+      id: string;
     }
     data: {
-        stripe_customer_id: string;
+      stripe_customer_id: string;
     }
-}
+  }
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default async (req: NextApiRequest, res: NextApiResponse) => {
@@ -29,7 +29,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
         let customerId = user.data.stripe_customer_id
 
-        if (!customerId) {
+        if(!customerId){
             const stripeCustomer = await stripe.customers.create({
                 email: session.user.email,
             })
@@ -53,7 +53,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
             payment_method_types: ['card'],
             billing_address_collection: 'required',
             line_items: [
-                { price: process.env.STRIPE_PRICE, quantity: 1 }
+                { price: 'price_1K8xWIFOPS9xJdx2rzYB1dL1', quantity: 1 }
             ],
             mode: 'subscription',
             allow_promotion_codes: true,
