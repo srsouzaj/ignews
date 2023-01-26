@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Ignews" src=".github/logo.png" />
+  <img alt="Ignews" width="115px" height="180px" src=".github/logo.png" />
 </p>
 
 ## **💻** Projeto
