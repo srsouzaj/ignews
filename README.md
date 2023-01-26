@@ -27,7 +27,7 @@ As seguintes tecnologias foram utilizadas no projeto:
 
 Você pode visualizar o layout do projeto através do link abaixo:
 
-- [https://www.figma.com/file/Ctn2eMiaFwTU1KFCaetK0k/Ignite-Shop-2.0-(Copy)?t=ByWt1xHjePoXdFcp-6](https://www.figma.com/file/BdeVVWMBNtRLlffBupMSqo/ig.news-(Copy)?node-id=3%3A7&t=ajI1i0wc4eyvCVFh-0)
+- [Figma Layout](https://www.figma.com/file/BdeVVWMBNtRLlffBupMSqo/ig.news-(Copy)?node-id=3%3A7&t=ajI1i0wc4eyvCVFh-0)
 
 Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 
