@@ -1,78 +1,56 @@
-
-
-<h1 align="center">
-
-<img src="https://raw.githubusercontent.com/khalleb/ignews/main/public/images/avatar.svg" alt="rocketshoes" width="100px"/>
-
-</h1>
-
 <p align="center">
-  IGNEWS - Portal de notícias 📰🚀
-  <br>
-  <br>
-
-  <img alt="Language count" src="https://img.shields.io/github/repo-size/khalleb/ignews"/>
-
-  <a href="https://github.com/srsouzaj/ignews/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/khalleb/ignews">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/github/license/srsouzaj/ignews">
+  <img alt="Ignews" src=".github/logo.png" />
 </p>
 
----
+## **💻** Projeto
+
+Ignews foi desenvolvido durante o programa de aceleração “Ignite  - ReactJS”, promovido pela Rocketseat, onde foi desenvolvido uma interface de blog onde os usuários podem ter acesso ao conteúdo de cada postagem de acordo com o status de sua assinatura. O blog é um Headless, ou seja, o novo conteúdo gerado pela plataforma PrismicCMS é renderizado para o usuário em tempo real, possuindo ainda um sistema de compra integrado com o STRIPE, e após o usuário realizar o pagamento, sua inscrição estará ativa e pronta para visualizar o conteúdo completo de todo o blog. Caso o usuário não deseje optar pela assinatura, ele terá acesso limitado ao conteúdo das postagens. E todos os dados necessários para se fazer verificações de assinaturas ou dados dos usuários, estão salvos no banco de dados FaunaDB.
+Essa é uma aplicação Serverless, ou seja, todo o processo que dependeria de um backend foi integrado dentro do front e seguindo o padrão da JAMStack. 
 
 <p align="center">
-  <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
-  <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requerimentos">Requerimentos</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-começando">Começando</a> &#xa0; &#xa0; | &#xa0;
-  <a href="#framed_picture-imagens">Imagens</a> &#xa0; &#xa0;
+  <img alt="Ignews" src=".github/background.png" />
 </p>
 
-<br>
-
-## :dart: Sobre ##
-
-O projeto ig.news é um blog onde os usuários podem ter acesso ao conteúdo de cada postagem de acordo com o status de sua assinatura.<br>
-O blog possui um sistema de compra integrado com o STRIPE, e após o usuário realizar o pagamento, sua inscrição estará ativa e pronta para visualizar o conteúdo completo
-de todo o blog. Caso o usuário não deseje optar pela assinatura, ele terá acesso limitado ao conteúdo das postagens. E todos os dados necessários para se fazer verificações
-de assinaturas ou dados dos usuários, estão salvos no banco de dados FaunaDB.
-<br>
-<br>
-Essa é uma aplicação Serverless, ou seja, todo o processo que dependeria de um backend foi integrado dentro do front e seguindo o padrão da JAMStack.
-<br>
-As postagens são feitas pelo painel do Prismic CMS e integradas diretamente pelo front.
-
-
-## :rocket: Tecnologias ##
+## 🚀 Tecnologias
 
 As seguintes tecnologias foram utilizadas no projeto:
 
 - [Next.js](https://nextjs.org/)
+- [ReactJS](https://reactjs.org/)
+- [Next-auth](https://next-auth.js.org/)
+- [Jest](https://jestjs.io/pt-BR/)
 - [Prismic CMS](https://prismic.io/)
 - [Stripe](https://stripe.com/)
 - [FaunaDB](https://fauna.com/)
 
-## :white_check_mark: Requerimentos ##
+## **🔖** Layout
 
-- [Node](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/lang/en/)
+Você pode visualizar o layout do projeto através do link abaixo:
 
-## :checkered_flag: Começando ##
+- [https://www.figma.com/file/Ctn2eMiaFwTU1KFCaetK0k/Ignite-Shop-2.0-(Copy)?t=ByWt1xHjePoXdFcp-6](https://www.figma.com/file/BdeVVWMBNtRLlffBupMSqo/ig.news-(Copy)?node-id=3%3A7&t=ajI1i0wc4eyvCVFh-0)
+
+Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
+
+## **🚀** Como Executar
+
+PS: é necessário ter o [NodeJS](https://nodejs.org/en/) e o [Git](https://git-scm.com/) instalados em sua máquina, antes de realizar os códigos abaixo:
 
 ```bash
-# Clone this project
-$ git clone https://github.com/khalleb/ignews
+## Clone o projeto em sua máquina
+git clone [https://github.com/srsouzaj/](https://github.com/srsouzaj/nlwsetup)ignews.git
 
-# Access
+# Acessar o projeto no terminal
 $ cd ignews
 
-# Install dependencies
-$ yarn install
+# Instalar as dependências
+$ npm install
 
-# Run the project
-$ yarn dev
-
-# The server will initialize in the <http://localhost:3000>
+# Executar o servidor em modo de desenvolvimento
+$ npm run dev
 ```
+
+## 📝 License
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/srsouzaj/ignews/blob/main/LICENSE.MD) para mais detalhes.
+
+Feito com ❤️ por Jorge de Souza
